@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanSimpleProject.Core.Ent
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanSimpleProject.Core.Contracts", "CleanSimpleProject.Core.Contracts\CleanSimpleProject.Core.Contracts.csproj", "{2BE0C184-DE68-4CFD-ADF4-68AF7E6B15A1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanSimpleProject.Application", "CleanSimpleProject.Application\CleanSimpleProject.Application.csproj", "{19187C67-56B6-4C51-964B-92649317D58D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{2BE0C184-DE68-4CFD-ADF4-68AF7E6B15A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BE0C184-DE68-4CFD-ADF4-68AF7E6B15A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2BE0C184-DE68-4CFD-ADF4-68AF7E6B15A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19187C67-56B6-4C51-964B-92649317D58D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19187C67-56B6-4C51-964B-92649317D58D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19187C67-56B6-4C51-964B-92649317D58D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19187C67-56B6-4C51-964B-92649317D58D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
