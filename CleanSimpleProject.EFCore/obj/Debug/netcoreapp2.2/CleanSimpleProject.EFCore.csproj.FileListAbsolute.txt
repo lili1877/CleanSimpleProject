@@ -1,5 +1,4 @@
 F:\Learning\CleanSimpleProject\CleanSimpleProject.EFCore\obj\Debug\netcoreapp2.2\CleanSimpleProject.EFCore.csprojAssemblyReference.cache
-F:\Learning\CleanSimpleProject\CleanSimpleProject.EFCore\obj\Debug\netcoreapp2.2\CleanSimpleProject.EFCore.csproj.CoreCompileInputs.cache
 F:\Learning\CleanSimpleProject\CleanSimpleProject.EFCore\obj\Debug\netcoreapp2.2\CleanSimpleProject.EFCore.AssemblyInfoInputs.cache
 F:\Learning\CleanSimpleProject\CleanSimpleProject.EFCore\obj\Debug\netcoreapp2.2\CleanSimpleProject.EFCore.AssemblyInfo.cs
 F:\Learning\CleanSimpleProject\CleanSimpleProject.EFCore\bin\Debug\netcoreapp2.2\CleanSimpleProject.EFCore.deps.json

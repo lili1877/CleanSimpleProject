@@ -1,7 +1,6 @@
 F:\Learning\CleanSimpleProject\CleanSimpleProject.Core.Entities\bin\Debug\netcoreapp2.2\CleanSimpleProject.Core.Entities.deps.json
 F:\Learning\CleanSimpleProject\CleanSimpleProject.Core.Entities\bin\Debug\netcoreapp2.2\CleanSimpleProject.Core.Entities.dll
 F:\Learning\CleanSimpleProject\CleanSimpleProject.Core.Entities\bin\Debug\netcoreapp2.2\CleanSimpleProject.Core.Entities.pdb
-F:\Learning\CleanSimpleProject\CleanSimpleProject.Core.Entities\obj\Debug\netcoreapp2.2\CleanSimpleProject.Core.Entities.csproj.CoreCompileInputs.cache
 F:\Learning\CleanSimpleProject\CleanSimpleProject.Core.Entities\obj\Debug\netcoreapp2.2\CleanSimpleProject.Core.Entities.AssemblyInfoInputs.cache
 F:\Learning\CleanSimpleProject\CleanSimpleProject.Core.Entities\obj\Debug\netcoreapp2.2\CleanSimpleProject.Core.Entities.AssemblyInfo.cs
 F:\Learning\CleanSimpleProject\CleanSimpleProject.Core.Entities\obj\Debug\netcoreapp2.2\CleanSimpleProject.Core.Entities.dll

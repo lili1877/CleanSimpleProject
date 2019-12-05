@@ -2,7 +2,6 @@ F:\Learning\CleanSimpleProject\CleanSimpleProject.Application\bin\Debug\netcorea
 F:\Learning\CleanSimpleProject\CleanSimpleProject.Application\bin\Debug\netcoreapp2.2\CleanSimpleProject.Application.dll
 F:\Learning\CleanSimpleProject\CleanSimpleProject.Application\bin\Debug\netcoreapp2.2\CleanSimpleProject.Application.pdb
 F:\Learning\CleanSimpleProject\CleanSimpleProject.Application\obj\Debug\netcoreapp2.2\CleanSimpleProject.Application.csprojAssemblyReference.cache
-F:\Learning\CleanSimpleProject\CleanSimpleProject.Application\obj\Debug\netcoreapp2.2\CleanSimpleProject.Application.csproj.CoreCompileInputs.cache
 F:\Learning\CleanSimpleProject\CleanSimpleProject.Application\obj\Debug\netcoreapp2.2\CleanSimpleProject.Application.AssemblyInfoInputs.cache
 F:\Learning\CleanSimpleProject\CleanSimpleProject.Application\obj\Debug\netcoreapp2.2\CleanSimpleProject.Application.AssemblyInfo.cs
 F:\Learning\CleanSimpleProject\CleanSimpleProject.Application\obj\Debug\netcoreapp2.2\CleanSimpleProject.Application.dll
