@@ -88,7 +88,11 @@
         },
         "frameworks": {
           "netcoreapp2.2": {
-            "projectReferences": {}
+            "projectReferences": {
+              "F:\\Learning\\CleanSimpleProject\\CleanSimpleProject.Core.Entities\\CleanSimpleProject.Core.Entities.csproj": {
+                "projectPath": "F:\\Learning\\CleanSimpleProject\\CleanSimpleProject.Core.Entities\\CleanSimpleProject.Core.Entities.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

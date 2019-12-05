@@ -7,3 +7,10 @@ F:\Learning\CleanSimpleProject\CleanSimpleProject.Application\obj\Debug\netcorea
 F:\Learning\CleanSimpleProject\CleanSimpleProject.Application\obj\Debug\netcoreapp2.2\CleanSimpleProject.Application.AssemblyInfo.cs
 F:\Learning\CleanSimpleProject\CleanSimpleProject.Application\obj\Debug\netcoreapp2.2\CleanSimpleProject.Application.dll
 F:\Learning\CleanSimpleProject\CleanSimpleProject.Application\obj\Debug\netcoreapp2.2\CleanSimpleProject.Application.pdb
+F:\Learning\CleanSimpleProject\CleanSimpleProject.Application\bin\Debug\netcoreapp2.2\CleanSimpleProject.Core.Contracts.dll
+F:\Learning\CleanSimpleProject\CleanSimpleProject.Application\bin\Debug\netcoreapp2.2\CleanSimpleProject.Core.Entities.dll
+F:\Learning\CleanSimpleProject\CleanSimpleProject.Application\bin\Debug\netcoreapp2.2\CleanSimpleProject.Core.Contracts.pdb
+F:\Learning\CleanSimpleProject\CleanSimpleProject.Application\bin\Debug\netcoreapp2.2\CleanSimpleProject.Core.Entities.pdb
+F:\Learning\CleanSimpleProject\CleanSimpleProject.Application\obj\Debug\netcoreapp2.2\CleanSimpleProject.Application.csproj.CopyComplete
+F:\Learning\CleanSimpleProject\CleanSimpleProject.Application\bin\Debug\netcoreapp2.2\Microsoft.Extensions.Identity.Stores.dll
+F:\Learning\CleanSimpleProject\CleanSimpleProject.Application\bin\Debug\netcoreapp2.2\Microsoft.Extensions.Identity.Stores.xml

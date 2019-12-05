@@ -2,10 +2,14 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace shaffaf.Models {
+namespace CleanSimpleProject.Core.Entities.Entities
+{
     public class Project {
-      
-        
+
+        public Project()
+        {
+            Pictures = new HashSet<ProjectPic>();
+        }
         public int Id { get; set; }
         public string ProjectName { get; set; }
         public string FirstPrice{ get; set; }
@@ -19,6 +23,6 @@ namespace shaffaf.Models {
          public string StartDate{ get; set; }
           public string EndDate { get; set; }
           public string ProgressPersent{ get; set; }
-        public ICollection<ProjectPic> Pictures{ get; set; }
+        public ICollection<ProjectPic> Pictures{ get; private set; }
     }
 }

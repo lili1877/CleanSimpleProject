@@ -211,6 +211,9 @@
       "CleanSimpleProject.Core.Contracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "CleanSimpleProject.Core.Entities": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/CleanSimpleProject.Core.Contracts.dll": {}
         },

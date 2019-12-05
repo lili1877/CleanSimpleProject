@@ -7,8 +7,36 @@
   "targets": {
     ".NETCoreApp,Version=v2.2": {
       "CleanSimpleProject.Application/1.0.0": {
+        "dependencies": {
+          "CleanSimpleProject.Core.Contracts": "1.0.0",
+          "CleanSimpleProject.Core.Entities": "1.0.0"
+        },
         "runtime": {
           "CleanSimpleProject.Application.dll": {}
+        }
+      },
+      "CleanSimpleProject.Core.Contracts/1.0.0": {
+        "dependencies": {
+          "CleanSimpleProject.Core.Entities": "1.0.0"
+        },
+        "runtime": {
+          "CleanSimpleProject.Core.Contracts.dll": {}
+        }
+      },
+      "CleanSimpleProject.Core.Entities/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Identity.Stores": "2.2.0.0"
+        },
+        "runtime": {
+          "CleanSimpleProject.Core.Entities.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Identity.Stores.Reference/2.2.0.0": {
+        "runtime": {
+          "Microsoft.Extensions.Identity.Stores.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18316"
+          }
         }
       }
     }
@@ -16,6 +44,21 @@
   "libraries": {
     "CleanSimpleProject.Application/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CleanSimpleProject.Core.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CleanSimpleProject.Core.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.Identity.Stores.Reference/2.2.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

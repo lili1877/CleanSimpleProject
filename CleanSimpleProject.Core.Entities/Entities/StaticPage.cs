@@ -1,7 +1,8 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace shaffaf.Models {
+namespace CleanSimpleProject.Core.Entities.Entities
+{
     public class StaticPage {
       
         

@@ -2,10 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CleanSimpleProject.Core.Entities.Entities;
+using CleanSimpleProject.EFCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -16,11 +19,21 @@ namespace CleanSimpleProject.MVC
     {
         public Startup(IConfiguration configuration)
         {
-            Configuration = configuration;
+            _config = configuration;
+        }
+        public Startup(IHostingEnvironment env)
+        {
+            _env = env;
+
+           // var Builder = new ConfigurationBuilder()
+           //.SetBasePath(_env.ContentRootPath)
+           //.AddJsonFile("appsettings.json")
+           //.AddEnvironmentVariables();
+           // _config = Builder.Build();
         }
 
-        public IConfiguration Configuration { get; }
-
+        public IConfiguration _config { get; }
+         private IHostingEnvironment _env;
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
@@ -30,8 +43,15 @@ namespace CleanSimpleProject.MVC
                 options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
-
-
+            //services.AddIdentity<CleanUser, IdentityRole>()
+             //.AddEntityFrameworkStores<CleanContext>();
+            //services.PostConfigure<CookieAuthenticationOptions>(IdentityConstants.ApplicationScheme,
+            //  opt =>
+            //  {
+            //        //configure your other properties
+            //        opt.LoginPath = "/Auth/Login";
+            //  });
+           // services.AddDbContext<CleanContext>();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 

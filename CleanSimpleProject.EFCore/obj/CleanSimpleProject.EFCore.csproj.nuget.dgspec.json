@@ -29,7 +29,11 @@
         },
         "frameworks": {
           "netcoreapp2.2": {
-            "projectReferences": {}
+            "projectReferences": {
+              "F:\\Learning\\CleanSimpleProject\\CleanSimpleProject.Core.Entities\\CleanSimpleProject.Core.Entities.csproj": {
+                "projectPath": "F:\\Learning\\CleanSimpleProject\\CleanSimpleProject.Core.Entities\\CleanSimpleProject.Core.Entities.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -152,6 +156,18 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",

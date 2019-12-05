@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Contracts\" />
+    <ProjectReference Include="..\CleanSimpleProject.Core.Entities\CleanSimpleProject.Core.Entities.csproj" />
   </ItemGroup>
 
 </Project>

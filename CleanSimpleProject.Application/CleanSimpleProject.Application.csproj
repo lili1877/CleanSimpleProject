@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CleanSimpleProject.Core.Contracts\CleanSimpleProject.Core.Contracts.csproj" />
+    <ProjectReference Include="..\CleanSimpleProject.Core.Entities\CleanSimpleProject.Core.Entities.csproj" />
+  </ItemGroup>
+
 </Project>

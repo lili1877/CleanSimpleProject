@@ -1,11 +1,11 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace shaffaf.Models
+namespace CleanSimpleProject.Core.Entities.Entities
 {
     public class Offer
     {
-        wpublic int Id { get; set; }
+        public int Id { get; set; }
         public string subject { get; set; }
         public string source { get; set; }
         public string type { get; set; }
