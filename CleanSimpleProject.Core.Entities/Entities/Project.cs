@@ -4,23 +4,6 @@ using System.ComponentModel.DataAnnotations;
 
 namespace CleanSimpleProject.Core.Entities.Entities
 {
-    /// <summary>
-    /// <para>This class present all properties for a construction project.
-    /// actually all properties for a building during construction time</para>
-    /// <param name="ProjectName">the name of the project</param>
-    /// <param name="FirstPrice">the price that specified at the first</param>
-    /// <param name="Place">distriction of the project</param
-    /// <param name="Address">the address of the project</param>
-    /// <param name="Employer">who is actually owner</param>
-    /// <param name="Contractor">who is responsible for construction</param>
-    /// <param name="Supervisor">who is supervisor and prepare progress report</param>
-    /// <param name="Consultant">who consult the project</param>
-    /// <param name="DelayReason">Delay Reason for sometimes project goes not in normal progress path</param>
-    /// <param name="StartDate">the Data of Start</param>
-    /// <param name="EndDate">the Date of the end of the project</param>
-    /// <param name="ProgressPersent">the progress amount <example>30%</example></param>
-    /// <param name="Pictures">a collection of Pictures which are relatedto the project</param>
-    /// </summary>
     public class Project {
 
         public Project()
