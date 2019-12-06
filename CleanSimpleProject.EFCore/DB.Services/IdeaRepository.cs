@@ -15,6 +15,11 @@ namespace CleanSimpleProject.EFCore.DB.Services
         {
           
         }
+        /// <summary>
+        /// returns all items for an idea
+        /// </summary>
+        /// <param name="ideamainId"> specific id of idea entity</param>
+        /// <returns>a list of all ideaItems for idea with <paramref name="ideamainId"/></returns>
         public async Task<IEnumerable<IdeaItem>> GetAllIdeaItemsByMainId(int ideamainId)
         {
             return await _context.IdeaItems
